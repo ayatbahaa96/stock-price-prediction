@@ -93,6 +93,12 @@ keras
 
 To run the LSTM and XGBoost models, execute:
 
-python LSTM_Model.ipynb
+pip install -r requirements.txt
 
-python XGBoost_Model.ipynb
+python preprocessing.py
+
+python train_lstm.py
+
+python train_xgboost.py
+
+ 
